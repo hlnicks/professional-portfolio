@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Header and Nav Bar Styles Start */
+
+header {
+  padding: 10px 15px;
+  background-color: rgb(92, 131, 56);
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: block; 
+  /* background-image: url();
+  background-size: cover; */
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+
+}
+
+header a {
+  text-decoration: none;
+  color:aqua;
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+/* Header and Nav Bar Styles End */
+
+
+
+
+/*    content    */
+
+.content {
+  margin: 40px 80px;
+  float: left;
+  padding: 90px 0px;
+
+}
+
+.section-title {
+  font-size: 30px;
+  text-align: left;
+  line-height: 1.2;
+  font-weight: bold;
+  width: 30%;
+  height: auto;
+  float: left;
+  /* margin: 3.5% */
+}
+
+
+
+
+.section-content {
+  width: 60%;
+  height:auto;;
+  float: right;
+
+}
+
+.section-content a {
+  text-decoration: none;
+  color:cornflowerblue
+}
