@@ -8,7 +8,7 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
-/* Header and Nav Bar Styles Start */
+/* Header and Nav Bar */
 
 header {
   padding: 10px 15px;
@@ -26,30 +26,26 @@ header {
 header h1 {
   font-weight: bold;
   font-size: 40px;
-  text-align: center;
-  padding: 25px;
-}
+  text-align: center;}
 
-header nav {
-  margin: 7px;
-  text-align: center;
- 
-}
 
 header nav ul {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  list-style: none;
   align-items: center;
   list-style: none;
 }
 
 header nav ul li a {
-  padding: 10px 15px;
   text-decoration: none;
   font-size: 20px;
   color: #000000;
 }
+
+
+/* Main */
 
 section {
   padding:65px 0px;
@@ -66,13 +62,16 @@ section {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;     /* aligns h2 in middle of content */
+  align-items: center;   
   justify-content: space-between;
 
 }
 
+
 .content-text {
-  flex: 2 70%;
+  flex: 2 50%;
+  text-align: justify;
+  
 }
 
 .content-text a {
@@ -80,4 +79,63 @@ section {
 
 }
 
+/* My Work Images */
 
+.work-img {
+  flex: 1 12%;
+  position: relative;
+}
+
+.work-img img {
+  max-width: 50%;
+  padding: 5px;
+
+}
+
+.bottom-left {
+  font-size: 25px;
+  font-weight: bold;
+  color: #ffffff;
+  position: absolute;
+  bottom: 12px;
+  left: 14px;
+}
+
+/* Contact Section */
+
+.contact {
+  text-align: center; 
+}
+
+.contact-img img {
+  height: 120px;
+  justify-content: space-evenly;
+}
+
+.contact-img a {
+  justify-content: space-evenly;
+}
+
+.flex-row {
+  display: flex;
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER 
+@media screen and (max-width: 980px) {
+  
+} 
+
+*/
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER 
+@media screen and (max-width: 768px) {
+}
+*/
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER 
+@media screen and (max-width: 575px) {
+  
+}
+
+*/
