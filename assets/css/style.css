@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Header and Nav Bar */
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 600px;
+  width: auto;
+}
+
+.header-centered {
+  position: absolute;
+  top: 34%;
+  /* left: 50%;
+  transform: translate(-50%, -50%); */
+
+}
+
+
+
+header h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 45px;
+  text-align: center;
+
+}
+
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: cursive;
+  color: #000000;
+}
+
+header nav ul li a:hover {
+  color: #dec9c5;
+  border-radius: 15px;
+  text-shadow: none;
+
+}
+
+
+/* Main */
+
+main {
+  padding: 80px 50px 80px 50px;
+}
+
+#about-me, #contact-me  {
+  background-color: #e7f0e5;
+  /* border: 3px solid;  */
+}
+
+/* About Me Section */
+
+.about-img {
+  padding-left: 25px;
+  float: right;
+}
+
+.about-img img {
+  border-radius: 20px;
+}
+
+#about-me p {
+  text-align: justify;
+}
+
+
+section {
+  padding: 40px 0px;
+}
+
+/* Content Formatting */
+
+.content h3 {
+  font-size: 35px;
+  flex: 1 30%;
+  color: #000000;
+}
+
+.content {
+  margin: 30px auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content-text {
+  flex: 2 50%;
+}
+
+.content-text a {
+  text-decoration: none;
+}
+
+.content-text p {
+  padding-bottom: 20px;
+}
+
+
+/* My Work Section*/
+
+.work-img {
+  flex: 1 12%;
+  position: relative;
+}
+
+.work-img img {
+  max-width: 50%;
+  padding: 5px;
+}
+
+.newest-project {
+  text-align: center;
+}
+
+.newest-project img {
+  max-width: 90%;
+}
+
+
+
+
+/* Contact Section */
+
+.contact-content {
+  flex: 2 50%;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-img img {
+  height: 110px;
+  justify-content: space-evenly;
+}
+
+
+.flex-row {
+  display: flex;
+}
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER 
+@media screen and (max-width: 980px) {
+  
+} 
+
+*/
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER 
+@media screen and (max-width: 768px) {
+}
+*/
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER 
+@media screen and (max-width: 575px) {
+  
+}
+
+*/
+
+
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #879786;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #6f8168;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f7f1f1;
+  padding: 20px;
+  width: 60%
+  /* font-size: 15px; */
+}
+
+textarea {
+  resize: none;
+}

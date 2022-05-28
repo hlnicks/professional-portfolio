@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width", initial-scale="1.0" />
     <title>Professional Portfolio</title>
-    <link rel="stylesheet" href="./develop/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 
@@ -13,32 +13,37 @@
 
     <!-- nav -->
     <header>
-        <h1>Hannah Nicks </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                </li>
-                <li>
-                    <a href="#my-work">My Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact me</a>
-                </li>
-            </ul>
-        </nav>
+            <img src="./assets/images/banner.png" />
+        <div class="header-centered">
+
+            <h1>Hannah Nicks </h1>
+            <h2>sub-title</h2>
+        
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#about-me">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#my-work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact-me">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- about me section -->
     <main>
         <section id="about-me">
             <div class="content">
-                <h2>about me. </h2>
+                <h3>about me. </h3>
                 <div class="content-text">
-                    <p> My name is Hannah Nicks and I am currently learning web development. I've been a medical receptionist for the past several years and I decided to make a change. While the program as been <b>very</b> challenging, I'm honestly enjoying it and cannot wait to see how my skills develop.
-                        <p>When I'm not sitting in front of my computer, I enjoy putting together Legos, boxing, exploring new places, and spending time with my loved ones.</p>
-
-                    </p>
+                    <div class="about-img"><img src="./assets/images/self.jpg"></div>
+                    <p> My name is Hannah Nicks and I am currently learning web development. I've been a medical receptionist for the past several years and I decided to make a change. While the program has been <b>very</b> challenging, I'm honestly enjoying it and cannot wait to see how my skills develop.</p>
+                        <p>When I'm not sitting in front of my computer, I enjoy putting together Legos, boxing, exploring new places, going to concerts, and spending time with my loved ones.</p>
                 </div>
             </div>
         </section>
@@ -46,13 +51,17 @@
         <!-- my work section -->
         <section id="my-work">
             <div class="content">
-                <h2>my work. </h2>
+                <h3>my work. </h3>
                 <div class="content-text">
+                    <div class="newest-project">
+                        <a href="https://hlnicks.github.io/run-buddy/" target="_blank"><img src="./assets/images/run-buddy.jpg" alt="run buddy">
+                    </div>
 
                     <div class="work-img">
-                        <a href="https://hlnicks.github.io/run-buddy/" target="_blank"><img src="./develop/images/run-buddy.jpg" alt="Run Buddy"></a>
-                            <div class="bottom-left">Run Buddy</div>
-                
+                        <a href="https://hlnicks.github.io/run-buddy/" target="_blank"><img src="./assets/images/run-buddy.jpg" alt="Run Buddy"></a>
+                        <a href="https://hlnicks.github.io/run-buddy/" target="_blank"><img src="./assets/images/run-buddy.jpg" alt="Run Buddy"></a>
+                        <a href="https://hlnicks.github.io/run-buddy/" target="_blank"><img src="./assets/images/run-buddy.jpg" alt="Run Buddy"></a>
+                        <a href="https://hlnicks.github.io/run-buddy/" target="_blank"><img src="./assets/images/run-buddy.jpg" alt="Run Buddy"></a>
 
                 </div>
             </div>
@@ -62,12 +71,37 @@
         <!-- contact me -->
         <section id="contact-me">
             <div class="content">
-                <h2>let's connect. </h2>
-                <div class="content-text">
+                <h3>let's connect. </h3>
+                <div class="contact-content">
+                    <div class="container">
+                        <form action="action_page.php">
+                      
+                          <label for="fname">First Name</label>
+                          <input type="text" id="fname" name="firstname" placeholder="">
+                      
+                          <label for="lname">Last Name</label>
+                          <input type="text" id="lname" name="lastname" placeholder="">
+
+                          <label for="email">Email</label>
+                          <input type="text" id="email" name="email" placeholder="">
+                      
+                      
+                          <label for="message">Message</label>
+                          <textarea id="message" name="message" placeholder="" style="height:200px" ></textarea>
+                      
+                          <input type="submit" value="Submit">
+                      
+                        </form>
+                    </div>
+
+
+
+
+
                     <div class="contact-img">
-                            <a href="mailto: hlnicks6692@gmail.com" target="_blank"><img src="./develop/images/email.jpeg" alt="email"></a>
-                            <a href="https://www.linkedin.com/in/hannahlnicks/" target="_blank"><img src="./develop/images/linkedin-icon.svg" alt="linkedin"></a>
-                            <a href="https://github.com/hlnicks" target="_blank"><img src="./develop/images/github.png" alt="github"></a>
+                            <!-- <a href="mailto: hlnicks6692@gmail.com" target="_blank"><img src="./develop/images/email.jpeg" alt="email"></a> keep?? -->
+                            <a href="https://www.linkedin.com/in/hannahlnicks/" target="_blank"><img src="./assets/images/linkedin.svg" alt="linkedin"></a>
+                            <a href="https://github.com/hlnicks" target="_blank"><img src="./assets/images/github.png" alt="github"></a>
                         </p>
                     </div>
                     
