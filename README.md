@@ -14,8 +14,8 @@ https://hlnicks.github.io/professional-portfolio/
 
 
 ## Contribution
-Made with love and tears by Hannah Nicks ❤️ git
+Made with love and tears by Hannah Nicks ❤️ 
 
 
 ## Credits
-Header Image: https://www.vectorstock.com/royalty-free-vector/horizontal-botanical-design-banner-pink-vector-21349855
+Header Image: https://www.istockphoto.com/portfolio/dashadoroshchuk?mediatype=illustration
