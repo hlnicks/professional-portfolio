@@ -12,6 +12,10 @@ A professional portfolio to display all of the things I code during my time with
 ## Website
 https://hlnicks.github.io/professional-portfolio/
 
+## Screenshot
+![ScreenShot](https://raw.githubusercontent.com/hlnicks/professional-portfolio/main/assets/images/screenshot.png)
+
+
 
 ## Contribution
 Hannah Nicks
