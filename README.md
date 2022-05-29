@@ -14,8 +14,8 @@ https://hlnicks.github.io/professional-portfolio/
 
 
 ## Contribution
-Made with love and tears by Hannah Nicks ❤️ 
+Hannah Nicks
 
 
 ## Credits
-Header Image: https://www.istockphoto.com/portfolio/dashadoroshchuk?mediatype=illustration
+Header and Footer Image: https://www.istockphoto.com/portfolio/dashadoroshchuk?mediatype=illustration

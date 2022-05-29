@@ -23,13 +23,12 @@ header h1 {
 
 header h2 {
   font-size: 25px;
-  color: #678854;
+  color: #4e6c34;
   font-weight: normal;
 }
 
 header nav ul {
-  padding-top: 25px;
-  padding-bottom: 50px;
+  padding-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -53,7 +52,7 @@ header nav ul li a:hover {
 
 /* Main */
 main {
-  padding: 80px 50px 80px 50px;
+  padding: 40px 50px 80px 50px;
 }
 
 section {
@@ -146,7 +145,16 @@ section {
 
 /* Footer */
 footer {
-  text-align: center;
+  height: 65px;
+  background-image: url(../images/footer.jpeg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:right;
+  padding: 30px;
+}
+
+footer h4 {
+  background-color: #ffffff;
   font-size: 20px;
 }
 
