@@ -121,9 +121,11 @@ section {
 
 .newest-project img {
   max-width: 100%;
+  max-height: 80%;
 }
 
 .other-projects img {
+  max-width: 49%;
   max-width: 49%;
 }
 
