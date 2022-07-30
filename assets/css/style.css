@@ -22,13 +22,13 @@ header h1 {
 }
 
 header h2 {
-  font-size: 25px;
+  font-size: 30px;
   color: #4e6c34;
   font-weight: normal;
 }
 
 header nav ul {
-  padding: 40px 200px 0px 200px;
+  padding: 40px 200px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -37,7 +37,7 @@ header nav ul {
 
 header nav ul li a {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 40px;
   font-family: cursive;
   color: #000000;
   border-bottom: #4e6c34 1px;
@@ -52,7 +52,7 @@ header nav ul li a:hover {
 
 /* main */
 main {
-  padding: 40px 250px 90px 250px;
+  padding: 30px 250px 90px;
 }
 
 section {
