@@ -9,7 +9,7 @@ body {
 }
 
 
-/* Header and Nav Bar */
+/* header & nav bar */
 header {
   background-image: url(../images/header.jpeg);
   background-repeat: repeat-x;
@@ -51,7 +51,7 @@ header nav ul li a:hover {
 }
 
 
-/* Main */
+/* main */
 main {
   padding: 40px 250px 90px 250px;
 }
@@ -75,7 +75,7 @@ section {
 }
 
 
-/* Content Formatting */
+/* content formatting */
 .content h3 {
   font-size: 35px;
   flex: 1 30%;
@@ -100,7 +100,7 @@ section {
 }
 
 
-/* About Me Section */
+/* about me */
 .about-img {
   padding-left: 25px;
   float: right;
@@ -116,21 +116,20 @@ section {
 }
 
 
-/* My Work Section*/
-
-
+/* my work */
 .newest-project img {
-  max-width: 100%;
-  max-height: 80%;
+  max-width: 460px;
+  max-height: 100%;
 }
 
 .other-projects img {
-  max-width: 49%;
-  max-width: 49%;
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
 }
 
 
-/* Contact Section */
+/* contact */
 .contact-img {
   padding-bottom: 25px;
   display: flex;
@@ -141,7 +140,7 @@ section {
   height: 100px;
 }
 
-/* Footer */
+/* footer */
 footer {
   height: 88px;
   background-image: url(../images/footer.jpeg);
@@ -160,7 +159,9 @@ footer span {
   color: #678854;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+/* media queries */
+
+/* smaller desktops & smaller */
 @media screen and (max-width: 980px) {
   header nav ul {
     padding-top: 60px;
@@ -204,7 +205,7 @@ footer span {
   }
 }
 
-/* MEDIA QUERY FOR TABLETS AND SMALLER */
+/* tablets & smaller */
 @media screen and (max-width: 768px) {
   header nav ul {
     display: flex;
@@ -213,7 +214,7 @@ footer span {
 }
 
 
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+/* mobile phones & smaller */
 @media screen and (max-width: 575px) {
   .contact-img{
     order: 3;
